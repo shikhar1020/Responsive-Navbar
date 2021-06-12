@@ -11,7 +11,7 @@ function App() {
     <Router>
       <Sidebar />
       <Switch>
-        <Route path="" exact component={Home} />
+        <Route path="/home" exact component={Home} />
         <Route path="/dashboard" exact component={Dashboard} />
         <Route path="/friends" exact component={Friends} />
         <Route path="/settings" exact component={Settings} />
